@@ -10,4 +10,7 @@ import lombok.NoArgsConstructor;
 public class LembreteDTO {
     private String texto;
 
+    public String getTexto() {
+        return texto;
+    }
 }

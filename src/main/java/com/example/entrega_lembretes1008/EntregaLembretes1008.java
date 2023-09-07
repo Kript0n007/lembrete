@@ -3,7 +3,7 @@ package com.example.entrega_lembretes1008;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.example.entrega_lembretes1008")
 public class EntregaLembretes1008 {
 
 	public static void main(String[] args) {

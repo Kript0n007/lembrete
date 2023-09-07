@@ -26,7 +26,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @ExtendWith(MockitoExtension.class)
-public class TestesLembreteController {
+public class TestesPessoaController {
 
     @Mock
     private PessoaService pessoaService;
@@ -51,7 +51,7 @@ public class TestesLembreteController {
     public void testFindAll() throws Exception {
         List<LembreteDTO> lembretesJoao = Arrays.asList(new LembreteDTO("Lembrete1"), new LembreteDTO("Lembrete2"));
         List<LembreteDTO> lembretesMaria = Arrays.asList(new LembreteDTO("Lembrete3"));
-
+        System.out.println("Passou");
         List<PessoaDTO> pessoas = Arrays.asList(
                 new PessoaDTO("João", lembretesJoao),
                 new PessoaDTO("Maria", lembretesMaria)
