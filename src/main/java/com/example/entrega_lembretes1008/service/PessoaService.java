@@ -38,7 +38,7 @@ public class PessoaService {
             List<LembreteDTO> lembretes = pessoa.getLembretes().stream().map(lembrete -> {
                 LembreteDTO lembreteDTO = new LembreteDTO();
                 lembreteDTO.setTexto(lembrete.getTexto());
-                // Como mencionado anteriormente, não estamos definindo o nomePessoa no lembreteDTO.
+
                 return lembreteDTO;
             }).collect(Collectors.toList());
 

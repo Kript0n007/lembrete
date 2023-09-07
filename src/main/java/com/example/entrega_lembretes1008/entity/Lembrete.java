@@ -1,10 +1,14 @@
 package com.example.entrega_lembretes1008.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Lembrete {
 
     @Id
